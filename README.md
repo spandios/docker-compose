@@ -1,10 +1,22 @@
+## 소개
+Local환경 에서 필요한 서비스를 Docker로 구성하고 docker-compose를 통해 관리합니다.
+
 ## 설정
   - .env에 지정하여 docker-compose에서 서비스들을 구성하는데 사용합니다.
 
+
 ## 명령어
+- make init 
+  - 컨테이너를 초기화하고 재시작
+- 기타 
+  - Makefile을 참고해주세요
+
+## 참고
+
+```
   - compose 실행
-  ```
-    docker-compose up -d
+  
+    make init
   ```
   
   - compose 재생성
