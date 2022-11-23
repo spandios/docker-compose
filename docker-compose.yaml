@@ -1,8 +1,7 @@
 version: "3.7"
 services:
   mysql:
-    image: mysql:latest
-    platform: linux/amd64
+    image: arm64v8/mysql
     restart: always
     container_name: mysql
     command:
